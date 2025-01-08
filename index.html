@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>MedacMusic</title>
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MedacMusic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de cabecera -->
+  <header class="hero mb-5">
+    <h1>Bienvenido a MedacMusic</h1>
+    <p>Encuentra tus discos favoritos a los mejores precios</p>
+    <a href="#productos" class="btn btn-primary">Ver Productos</a>
+  </header>
+
+  <!-- Productos Destacados -->
+  <section class="container">
+    <h2 class="text-center bg-dark text-white p-2">Productos Destacados</h2>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <div class="card position-relative imgDisco">
+          <div>
+            <img src="img/ghost.jpg" class="card-img-top " alt="ghost">
+            <div class="description">
+              <p class="mb-1"><b>Duración</b>: 46 minutos</p>
+              <p class="mb-1"><b>Artista</b>: Ghost</p>
+              <p class="mb-1"><b>Album</b>: Imperia</p>
+              <p class="mb-1"><b>Sello</b>: Loma Vista - LVR02403, Spinefarm Records - 00888072406551</p>
+              <p class="mb-1"><b>País</b>: Europa</p>
+              <p class="mb-1"><b>Género</b>: Rock</p>
+              <p class="mb-1"><b>Estilos</b>: Heavy Metal, Pyschedelic Rock, Hard Rock, Doom Metal</p>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h3 class="card-title pb-2">Ghost - Imperia</h3>
+            <p class="card-text fs-5">El mejor álbum de la temporada.</p>
+            <p class="card-text fs-4"><b>Precio:</b> 31,99€</p>
+          </div>
+          <a href="detallesDisco1.html" class="btn btn-dark">Ver más</a>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card position-relative imgDisco">
+          <div>
+            <img src="img/thedarkness.jpg" class="card-img-top" alt="thedarkness">
+            <div class="description">
+              <p class="mb-1"><b>Duración</b>: 38 minutos</p>
+              <p class="mb-1"><b>Artista</b>: The Darkness</p>
+              <p class="mb-1"><b>Album</b>: Permision To Land</p>
+              <p class="mb-1"><b>Sello</b>: Atlantic – 5050467-0475-2-5</p>
+              <p class="mb-1"><b>País</b>: Indonesia</p>
+              <p class="mb-1"><b>Género</b>: Rock</p>
+              <p class="mb-1"><b>Estilos</b>: Heavy Metal, Hard Rock, Rock, Glam Rock</p>
+          </div>
+          </div>
+          <div class="card-body text-center">
+            <h3 class="card-title pb-2">The Darkness - Permissions To Land</h3>
+            <p class="card-text fs-5">Un clásico que no puede faltar.</p>
+            <p class="card-text fs-4"><b>Precio:</b> 21,99€</p>
+          </div>
+          <a href="detallesDisco2.html" class="btn btn-dark">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productos -->
+  <section id="productos" class="container py-4">
+    <h2 class="text-center bg-dark text-white p-2">Productos</h2>
+    <div class="row mt-5">
+      <div class="col-md-3">
+        <div class="card position-relative imgDisco">
+          <img src="img/queen.jpg" class="card-img-top " alt="Queen - A Kind of Magic">
+          <div class="card-body text-center">
+            <h5 class="card-title text-weight">Queen - A Kind of Magic</h5>
+            <p class="card-text "><b>Precio:</b> 27,29€</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card position-relative imgDisco">
+          <img src="img/ledzeppelin.jpg" class="card-img-top " alt="Led Zeppelin - IV">
+          <div class="card-body text-center">
+            <h5 class="card-title text-weight">Led Zeppelin - IV</h5>
+            <p class="card-text"><b>Precio:</b> 11,31€</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card position-relative imgDisco">
+          <img src="img/kansas.jpg" class="card-img-top " alt="Kansas - Leftoverture">
+          <div class="card-body text-center">
+            <h5 class="card-title text-weight">Kansas - Leftoverture</h5>
+            <p class="card-text text"><b>Precio:</b> 12,58€</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card position-relative imgDisco">
+          <img src="img/acdc.jpg" class="card-img-top " alt="AC/DC - Back in Black">
+          <div class="card-body text-center">
+            <h5 class="card-title text-weight">AC/DC - Back in Black</h5>
+            <p class="card-text text"><b>Precio:</b> 13,33€</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <p>&copy; 2025 MedacMusic. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
