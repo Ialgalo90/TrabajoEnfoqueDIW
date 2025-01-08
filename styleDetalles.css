@@ -1,3 +1,13 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .container {
-    width: 30% !important;
+    width: 30%;
+}
+
+@media (max-width: 1366px) {
+    .container {
+        width: 50%;
+    }
 }

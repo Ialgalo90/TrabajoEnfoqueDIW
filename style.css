@@ -1,3 +1,7 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 nav {
     position: fixed;
 }
@@ -31,7 +35,7 @@ nav {
     display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1366px) {
     .description {
         display: none;
         position: absolute;
